@@ -11,9 +11,10 @@
   },
   "main": "index.js",
   "browserify": {
-      "transform": []
+      "transform": "es6ify"
   },
   "devDependencies": {
+    "es6ify": "^1.4.0",
     "browserify": "^6.0.2",
     "watchify": "^2.0.0"
   }
