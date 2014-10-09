@@ -5,6 +5,8 @@
   "license": "MIT",
   "author": "CJ Gaconnet",
   "scripts": {
+    "browserify": "browserify index.js -o bundle.js",
+    "watchify": "watchify index.js -o bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "index.js",
@@ -12,5 +14,7 @@
       "transform": []
   },
   "devDependencies": {
+    "browserify": "^6.0.2",
+    "watchify": "^2.0.0"
   }
 }
